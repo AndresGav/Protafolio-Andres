@@ -153,22 +153,16 @@ header h1:hover{
 
 /*SECCION EXPERIENCIA*/
 .experiencia-item{
-<<<<<<< HEAD
     width: 98%;
-=======
->>>>>>> 9f6dc8d884626779fec34fdca66f0b9a0f981221
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-<<<<<<< HEAD
     transition: 1s;
     margin-top: 15px;
     box-shadow: 0 3px 7px #00000038;
     margin-left: 5px;
-=======
->>>>>>> 9f6dc8d884626779fec34fdca66f0b9a0f981221
 }
 
 .experiencia-img{
@@ -187,7 +181,6 @@ header h1:hover{
 
 .experiencia-descripcion{
     width: 30%;
-<<<<<<< HEAD
     /*transform: scale(0);*/
     text-align: justify;
 }
@@ -196,16 +189,6 @@ header h1:hover{
     transform: scale(1);
     transition: 1s;
 }*/
-=======
-    transform: scale(0);
-    text-align: justify;
-}
-
-.experiencia-item:hover .experiencia-descripcion{
-    transform: scale(1);
-    transition: 1s;
-}
->>>>>>> 9f6dc8d884626779fec34fdca66f0b9a0f981221
 .experiencia-item:hover{
     background-color: #8a8888da;
 }
@@ -252,8 +235,4 @@ li {
     background: transparent;
     margin-bottom: 5px;
     box-shadow: 0 2px 5px transparent;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 9f6dc8d884626779fec34fdca66f0b9a0f981221
