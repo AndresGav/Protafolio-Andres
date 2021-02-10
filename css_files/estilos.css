@@ -102,9 +102,10 @@ header h1:hover{
 }
 
 /*Rango de Aprendisaje*/
-.nivel-aprendizaje input[type='range']{
-    background: #a29bfe;
-    border-radius: 2px;
+.nivel-aprendizaje {
+    width: 30%;
+    display: block;
+    
 }
 
 
