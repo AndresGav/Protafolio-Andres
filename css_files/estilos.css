@@ -180,6 +180,17 @@ header h1:hover{
     background-color: #8a8888da;
 }
 
+/*SERVICIOS*/
+.contenido-servicios{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(178, 182, 182);
+}
+
+.contenido-servicios-item{
+    width: 17%;
+}
 
 /*FOOTER*/
 footer{
