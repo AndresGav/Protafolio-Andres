@@ -181,16 +181,19 @@ header h1:hover{
 }
 
 /*SERVICIOS*/
-.contenido-servicios{
-    width: 100%;
+.servicios{
+    width: 80%;
+    margin: auto;
+}
+#accordionFlushExample{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(178, 182, 182);
 }
 
-.contenido-servicios-item{
-    width: 17%;
+.accordion-item{
+    width: 20%;
 }
+
 
 /*FOOTER*/
 footer{
