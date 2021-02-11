@@ -38,14 +38,11 @@
 }
 .tool-bar-content a{
     text-decoration: none;
-    color: black;
+    color: black !important;
     padding: 10px;
-    border-radius: 5%;
 }
 .tool-bar-content a:hover{
-    color: white;
-    background-color: #3e699b;
-    transition: .6s;
+    border-bottom: 3px solid #af20d3;
 }
 
 /*HEADER*/
