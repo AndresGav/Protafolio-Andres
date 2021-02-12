@@ -238,17 +238,34 @@ header h1{
 footer{
     width: 100%;
     height: 200px;
-    background-color: #f7f7f7;
-    
+    background-color: #f7f7f7; 
+    position: relative;  
+}
+.footer-info{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+}
+.footer-info h3{
+    font-size: 20px;
+    color: #838383;
 }
 
+.footer-img{
+    bottom: 8px;
+    right: 8px;
+    position: absolute;
+}
+.footer-img img{
+    width: 60px;
+}
 /*SOCIAL NETWORK ICONOS*/
 
 .float-icos {
     position: fixed;
     left: 0;
     bottom: 0;
-    padding: 16px;
 }
 
 .float-icos a {
@@ -274,5 +291,4 @@ li {
     border-radius: 999px;
     background: transparent;
     margin-bottom: 5px;
-    box-shadow: 0 2px 5px transparent;
 }
