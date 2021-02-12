@@ -63,12 +63,9 @@ header{
     width: 100%;
     height: 750px;
 
-    
-
     /*position: relative;
     background-attachment: fixed; /*PERMITE QUE LA IMAGEN SEA ESTATICO
     background-size: cover;*/
-
 }
 
 header h1{
@@ -180,7 +177,7 @@ header h1{
     transition: 1s;
 }
 .experiencia-img img:hover{
-    transform: scale(1.3);
+    transform: scale(1.15);
 }
 
 .experiencia-descripcion{
@@ -234,6 +231,25 @@ header h1{
     box-shadow: 3px 3px 15px 1px rgba(0,0,0,0.5);
     
 }
+
+/*SECCION CONTACTO*/
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-frm{
+    width: 50%;
+}
+.contact-img{
+    width: 50%;
+    margin-left: 40px;
+}
+.contact img{
+    width: 90%;
+    border-radius: 50%;
+}
 /*FOOTER*/
 footer{
     width: 100%;
@@ -249,7 +265,7 @@ footer{
 }
 .footer-info h3{
     font-size: 20px;
-    color: #838383;
+    color: #8D8B8B;
 }
 
 .footer-img{
