@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css_files/bootstrap.min.css">
+    <link rel="stylesheet" href="/css_files/title.css">
     
     <meta name="Andres Gavino Portafolio" content="Hola, soy andres gavino te puedo ofrecer los siguientes servicios..."> 
 </head>
@@ -38,10 +39,15 @@
     <!--Encabezado-->
     <header>
 
-        <h1>Portafolio en construcción...</h1>
+        
+
+        <div class="title">
+            <h1  aria-label="A.G.Portafolio"></h1>
+        </div>
+        
         
         <div class="ola" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-8.80,73.31 C297.62,191.74 379.45,27.93 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f7f7f7;"></path></svg></div>
-    
+        
     </header>
 
 
@@ -419,24 +425,24 @@
                 <div class="contact">
                     <form action="" class="contact-frm">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre" required name="name">
                             <label for="floatingInput">Nombre</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Apellido">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Apellido" required name="lastname">
                             <label for="floatingInput">Apellido</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required name="email">
                             <label for="floatingInput">Correo Electrónico</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Asunto">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Asunto" required name="affair">
                             <label for="floatingInput">Asunto</label>
                         </div>
                         
                         <div class="form-floating mb-3">
-                            <textarea type="text" class="form-control" id="floatingInput" placeholder="Comentario"></textarea>
+                            <textarea type="text" class="form-control" id="floatingInput" placeholder="Comentario" required name="coment"></textarea>
                             <label for="floatingInput">Comentario</label>
                         </div>
     
@@ -497,6 +503,7 @@
     </div>
 
     <script src="/js_files/bootstrap.bundle.min.js"></script>
+    <script src="/js_files/title.js"></script>
 
 </body>
 </html>
